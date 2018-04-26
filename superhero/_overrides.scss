@@ -1,5 +1,6 @@
 // Overrides
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+// don't do the bad csp
+// @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 .section {
   background-color: $body-background-color;
