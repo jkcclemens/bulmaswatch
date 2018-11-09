@@ -1,5 +1,7 @@
 // Overrides
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@if $bulmaswatch-import-font {
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+}
 
 .button,
 .control.has-icons-left .icon,
@@ -31,10 +33,6 @@
       }
     }
   }
-}
-
-.card {
-  box-shadow: 0 2px 3px rgba($grey-dark, 0.1), 0 0 0 1px rgba($grey-dark, 0.1);
 }
 
 .navbar {

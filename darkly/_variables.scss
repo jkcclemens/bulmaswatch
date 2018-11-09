@@ -37,6 +37,7 @@ $body-background-color: darken($grey-darker, 4);
 $body-size: 15px;
 
 $background: $grey-darker;
+$footer-background-color: $background;
 $button-background-color: $background;
 $button-border-color: lighten($button-background-color, 15);
 
@@ -48,6 +49,10 @@ $text: #fff;
 $text-light: lighten($text, 10);
 $text-strong: darken($text, 5);
 
+$box-color: $text;
+$box-background-color: $grey-dark;
+$box-shadow: none;
+
 $link: $turquoise;
 $link-hover: lighten($link, 5);
 $link-focus: darken($link, 5);
@@ -58,9 +63,10 @@ $button-color: $primary;
 $button-hover-color: darken($text, 5); // text-dark
 $button-focus: darken($text, 5); // text-dark
 $button-active-color: darken($text, 5); // text-dark
+$button-disabled-background-color: $grey-light;
 
 $input-hover-color: $grey-light;
-$input-disabled-background-color: $grey-lighter;
+$input-disabled-background-color: $grey-light;
 $input-disabled-border: $grey-lighter;
 
 $table-color: $text;
@@ -72,6 +78,7 @@ $table-row-hover-background-color: $grey-darker;
 $table-striped-row-even-background-color: $grey-darker;
 $table-striped-row-even-hover-background-color: lighten($grey-darker, 2);
 
+$pagination-color: $link;
 $pagination-border-color: $border;
 
 $navbar-height: 4rem;
@@ -92,3 +99,7 @@ $navbar-dropdown-item-active-color: $link;
 
 $dropdown-content-background-color: $background;
 $dropdown-item-color: $text;
+
+$progress-value-background-color: $grey-lighter;
+
+$bulmaswatch-import-font: true !default;

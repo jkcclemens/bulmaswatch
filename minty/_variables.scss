@@ -3,6 +3,7 @@
 ////////////////////////////////////////////////
 $grey:         #888;
 $grey-light:   #aaa;
+$grey-lighter: #dbdbdb;
 
 $orange:       #eea170;
 $yellow:       #FFCE67;
@@ -37,3 +38,7 @@ $navbar-item-hover-color: #fff;
 $navbar-item-active-color: #fff;
 $navbar-item-hover-background-color: rgba(#000, 0.1);
 $navbar-dropdown-arrow: $navbar-item-color;
+
+$bulmaswatch-import-font: true !default;
+
+$box-shadow: 0 0 0 1px $grey-lighter;

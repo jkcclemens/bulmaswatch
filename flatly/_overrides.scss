@@ -1,5 +1,7 @@
 // Overrides
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+@if $bulmaswatch-import-font {
+    @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+}
 
 hr {
   height: $border-width;
@@ -8,11 +10,6 @@ hr {
 h6 {
   text-transform: uppercase;
   letter-spacing: 0.5px;
-}
-
-.box {
-  box-shadow: none;
-  background-color: $white-ter;
 }
 
 a {

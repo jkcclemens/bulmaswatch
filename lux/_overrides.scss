@@ -1,5 +1,7 @@
 // Overrides
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@if $bulmaswatch-import-font {
+    @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+}
 
 body {
   font-weight: 200;
@@ -14,10 +16,6 @@ h5,
 h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
-}
-
-.box {
-  box-shadow: 0 0 0 1px $grey-lighter;
 }
 
 .button {

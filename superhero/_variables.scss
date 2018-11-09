@@ -25,6 +25,7 @@ $subtitle-strong-color: darken($grey-lighter, 10);
 
 $background: $grey-dark;
 $body-background-color: $grey-darker;
+$footer-background-color: $background;
 
 $border: $grey;
 
@@ -33,6 +34,14 @@ $family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $text: $grey-lighter;
 $text-strong: darken($grey-lighter, 10);
 $text-light: $grey-light;
+
+$box-background-color: $background;
+
+$card-shadow: none;
+$card-background-color: darken($body-background-color, 1);
+$card-header-box-shadow: none;
+$card-header-background-color: darken($body-background-color, 3);
+$card-footer-background-color: darken($body-background-color, 3);
 
 $link: $grey-light;
 $link-hover: $grey-lighter;
@@ -73,3 +82,13 @@ $navbar-dropdown-arrow: currentColor;
 $dropdown-content-background-color: $background;
 $dropdown-item-color: $text;
 $dropdown-item-hover-color: $text-light;
+
+$tabs-toggle-link-active-background-color: $background;
+$tabs-toggle-link-active-border-color: $border;
+$tabs-toggle-link-active-color: #FFF;
+$tabs-boxed-link-active-background-color: $body-background-color;
+
+$pagination-color: $link;
+$pagination-border-color: $border;
+
+$bulmaswatch-import-font: true !default;

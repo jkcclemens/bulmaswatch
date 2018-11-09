@@ -1,6 +1,7 @@
 // Overrides
-// don't do the bad csp
-// @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@if $bulmaswatch-import-font {
+    @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+}
 
 .section {
   background-color: $body-background-color;
@@ -8,10 +9,6 @@
 
 .hero {
   background-color: $body-background-color;
-}
-
-.box {
-  background-color: $background;
 }
 
 .button {
@@ -55,9 +52,7 @@
 }
 
 .card {
-  box-shadow: none;
   border: 1px solid $border;
-  background-color: darken($body-background-color, 1);
   border-radius: $radius;
 
   .card-image {
@@ -67,13 +62,7 @@
   }
 
   .card-header {
-    box-shadow: none;
-    background-color: darken($body-background-color, 3);
     border-radius: $radius $radius 0 0;
-  }
-
-  .card-footer {
-    background-color: darken($body-background-color, 3);
   }
 
   .card-footer,
@@ -129,14 +118,6 @@
       .navbar-item {
         color: $grey-lighter;
       }
-    }
-  }
-}
-
-.tabs {
-  &.is-boxed {
-    li.is-active a {
-      background-color: $background;
     }
   }
 }

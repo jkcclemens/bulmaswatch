@@ -30,10 +30,15 @@ $subtitle-color: darken($grey, 20);
 $border-width: 2px;
 
 $body-size: 15px;
+$footer-background-color: $white-ter;
 
 $text: $primary;
 $text-light: lighten($primary, 10);
 $text-strong: darken($primary, 5);
+
+$box-color: $text;
+$box-background-color: $white-ter;
+$box-shadow: none;
 
 $link: $turquoise;
 $link-hover: darken($link, 10);
@@ -59,3 +64,5 @@ $navbar-dropdown-item-hover-color: $link;
 $navbar-dropdown-item-hover-background-color: transparent;
 $navbar-dropdown-item-active-background-color: transparent;
 $navbar-dropdown-item-active-color: $link;
+
+$bulmaswatch-import-font: true !default;

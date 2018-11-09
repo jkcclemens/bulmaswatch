@@ -1,4 +1,6 @@
-@import url( 'https://fonts.googleapis.com/css?family=Varela+Round');
+@if $bulmaswatch-import-font {
+    @import url( 'https://fonts.googleapis.com/css?family=Varela+Round');
+}
 
 .card-header {
   border-bottom: solid 1px $primary;
@@ -36,7 +38,6 @@ th {
 
 .box {
   border: solid 1px $primary;
-  background: $white-bis;
 }
 
 .delete {
